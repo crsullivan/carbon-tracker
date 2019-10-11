@@ -1,0 +1,24 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 12vmin;
+}
+
+.App-header {
+  background-color: #bab6b7;
+  height: 12vh;
+  width:100%;
+  display:flex;
+  font-size: calc(10px + 2vmin);
+  color: slategrey;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Title {
+}
