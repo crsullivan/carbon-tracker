@@ -1,5 +1,9 @@
+* {
+  color:grey;
+}
+
 .App {
-  background-color: #282c34;
+  background-color: gainsboro;
   min-height: 100vh;
 }
 
@@ -9,16 +13,27 @@
 
 .App-header {
   background-color: #bab6b7;
-  height: 12vh;
+  height: 13vh;
   width:100%;
   display:flex;
   font-size: calc(10px + 2vmin);
-  color: slategrey;
 }
 
-.App-link {
-  color: #09d3ac;
+.graph {
+  margin:5%;
 }
 
-.Title {
+h2 {
+  padding-bottom:2%;
+}
+
+.container {
+  display:flex;
+  margin: 5% 10%;
+}
+
+.pie {
+  margin-top:10%;
+  margin-left:20%;
+  color:black;
 }
