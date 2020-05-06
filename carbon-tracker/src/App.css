@@ -24,16 +24,24 @@
 }
 
 h2 {
-  padding-bottom:2%;
+  padding-bottom:3%;
 }
 
 .container {
   display:flex;
-  margin: 5% 10%;
+  margin: 3% 10% ;
 }
 
 .pie {
-  margin-top:10%;
+  margin-top:17%;
   margin-left:20%;
   color:black;
+}
+
+a {
+  color: blue;
+}
+
+p {
+  margin-bottom: 5%;
 }

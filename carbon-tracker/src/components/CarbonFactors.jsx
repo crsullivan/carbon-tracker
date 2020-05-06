@@ -35,6 +35,11 @@ const CarbonFactors = (props) => {
                 {props.carbonData.map(data => (
                     <>
                         <h1>UK Carbon Emission Sources</h1>
+                        <p>
+                        Below is a combination of the top 6 carbon emissions sources in the UK.<br></br>
+                        this information updates automatically, and the data provided<br></br>
+                        is harvested from the open Carbon Intensity API found <a href="https://carbonintensity.org.uk">here</a>
+                        </p>
                         <XYPlot xType="ordinal" width={700} height={500} xDistance={200}>
                             <VerticalGridLines />
                             <HorizontalGridLines />
